@@ -1,25 +1,34 @@
-# You Don't Know JS
-# Preface
+# Вы не знаете JS
+# Предисловие
 
-I'm sure you noticed, but "JS" in the book series title is not an abbreviation for words used to curse about JavaScript, though cursing at the language's quirks is something we can probably all identify with!
 
-From the earliest days of the web, JavaScript has been a foundational technology that drives interactive experience around the content we consume. While flickering mouse trails and annoying pop-up prompts may be where JavaScript started, nearly 2 decades later, the technology and capability of JavaScript has grown many orders of magnitude, and few doubt its importance at the heart of the world's most widely available software platform: the web.
+Я уверен, что вы заметили "JS" в названии книжной серии. Эта аббревиатура,  используется не для того, чтобы оскорбить JavaScript, несмотря на все его причуды.
 
-But as a language, it has perpetually been a target for a great deal of criticism, owing partly to its heritage but even more to its design philosophy. Even the name evokes, as Brendan Eich once put it, "dumb kid brother" status next to its more mature older brother "Java". But the name is merely an accident of politics and marketing. The two languages are vastly different in many important ways. "JavaScript" is as related to "Java" as "Carnival" is to "Car".
 
-Because JavaScript borrows concepts and syntax idioms from several languages, including proud C-style procedural roots as well as subtle, less obvious Scheme/Lisp-style functional roots, it is exceedingly approachable to a broad audience of developers, even those with just little to no programming experience. The "Hello World" of JavaScript is so simple that the language is inviting and easy to get comfortable with in early exposure.
+В далекие времена интернета, JavaScript был основопологающей технологией, которая позволяла добавить интерактивность веб-страницам. В то время он использовался для того, чтобы сделать мерцающий след курсора мыши и раздражающие всплывающие подсказки. Почти 2 десятилетия спустя технологии и возможности JavaScript выросли на порядок, и мало кто сомневается в его важности, а в его основе лежала наиболее широкодоступная платформа: web.
 
-While JavaScript is perhaps one of the easiest languages to get up and running with, its eccentricities make solid mastery of the language a vastly less common occurrence than in many other languages. Where it takes a pretty in-depth knowledge of a language like C or C++ to write a full-scale program, full-scale production JavaScript can, and often does, barely scratch the surface of what the language can do.
 
-Sophisticated concepts which are deeply rooted into the language tend instead to surface themselves in *seemingly* simplistic ways, such as passing around functions as callbacks, which encourages the JavaScript developer to just use the language as-is and not worry too much about what's going on under the hood.
+Но как язык, он постоянно оказывался мишенью для критики, отчасти по инерции, но больше из-за философии дизайна. Даже такая фигура, как Брендан Айк (создатель JavaScript), наделил его статусом "глупого младшего брата" в сравнении с более зрелым старшим братом Java. Имя "JavaScript" было выбрано в маркетинговых целях. Два языка значительно отличаются друг от друга во многих ключевых моментах. JavaScript имеет такое же отношение к Java как слово "Carnival" к слову "Car".
 
-It is simultaneously a simple, easy-to-use language that has broad appeal, and a complex and nuanced collection of language mechanics which without careful study will elude *true understanding* even for the most seasoned of JavaScript developers.
+Поскольку JavaScript позаимствовал концепции и синтаксические идиомы из нескольких языков, включая процедурные корни из C и менее очевидные функциональные корни из Scheme/Lisp-style, он чрезвычайно доступен для широкой аудитории разработчиков, даже для тех, у кого нет опыта в программировании. "Hello World" на языке JavaScript - это настолько просто, что язык сам приглашает и показывает свою легкость этим примером.   
 
-Therein lies the paradox of JavaScript, the Achilles' Heel of the language, the challenge we are presently addressing. Because JavaScript *can* be used without understanding, the understanding of the language is often never attained.
 
-## Mission
+JavaScript является одним из самых легких языков для начинающих, однако за счет его особенностей овладеть им в полной мере гораздо сложнее, чем многими другими языками. Там, где для написания программы требуются довольно глубокие знания таких языков, как C или C++, можно обойтись поверхностными знаниями JavaScript.
 
-If at every point that you encounter a surprise or frustration in JavaScript, your response is to add it to the blacklist, as some are accustomed to doing, you soon will be relegated to a hollow shell of the richness of JavaScript.
+
+
+Сложные концепции, которые глубоко укоренились в языке, имеют тенденцию, показывать себя *казалось бы* простыми. Например, передача функции обратного вызова, подталкивают JavaScript разработчиков просто использовать язык как есть и не беспокоиться слишком много о том, что происходит под капотом.
+
+
+
+Это простой в использовании язык, который имеет широкое применение, но одновременно с этим он имеет множество ньюансов, которые без тщательного изучения будут ускользать от *истинного понимания* даже опытных разработчиков JavaScript.
+
+В этом и заключается парадокс JavaScript, его Ахиллесова пята, вызов, который мы принимаем. Так как JavaScript *может* быть использован без понимания, оно часто не достигается.
+
+## Миссия
+
+
+Если вы столкнулись с удивлением или разочарованием в JavaScript, вы можете добавить его в черный список, как некоторые привыкли делать, и так и не узнать все возможности JavaScript.
 
 While this subset has been famously dubbed "The Good Parts", I would implore you, dear reader, to instead consider it the "The Easy Parts", "The Safe Parts", or even "The Incomplete Parts".
 
